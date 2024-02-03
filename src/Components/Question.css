@@ -1,0 +1,18 @@
+.question {
+  font-size: 1.3em;
+  text-align: left;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Playfair Display", "Bookman", serif;
+  color: rgb(8, 8, 8);
+}
+
+.questionDV {
+  font-size: 1.3em;
+  max-width: 500px;
+  align-items: flex-start;
+  font-weight: normal;
+  font-style: italic;
+  font-family: "Playfair Display", "Bookman", serif;
+  color: rgb(8, 8, 8);
+}
