@@ -55,6 +55,12 @@ const qBank = {
       options: ["June", "July", "August", "September"],
       answer: "August",
     },
+    {
+      id: 5,
+      question: "Vihaan's Dadi Ghar?",
+      options: ["Bhagalpur", "Ara", "Bhojpur", "Bhagwanpur"],
+      answer: "Bhagalpur",
+    },
   ],
 };
 
