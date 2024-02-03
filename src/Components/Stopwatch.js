@@ -26,18 +26,15 @@ const Stopwatch = (props) => {
   // Seconds calculation
   const seconds = Math.floor((time % 6000) / 100);
 
-  // Milliseconds calculation
-  const milliseconds = time % 100;
+  // // Method to start and stop timer
+  // const startAndStop = () => {
+  //   setIsRunning(!isRunning);
+  // };
 
-  // Method to start and stop timer
-  const startAndStop = () => {
-    setIsRunning(!isRunning);
-  };
-
-  // Method to reset timer back to 0
-  const reset = () => {
-    setTime(0);
-  };
+  // // Method to reset timer back to 0
+  // const reset = () => {
+  //   setTime(0);
+  // };
   return (
     <div className="stopwatch-container">
       <p className="stopwatch-time">
